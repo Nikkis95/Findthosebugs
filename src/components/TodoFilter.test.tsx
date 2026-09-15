@@ -8,7 +8,7 @@ describe ("Filter todos", () => {
          const user = userEvent.setup()
          render(<TodoApp />)
          const input = screen.getByLabelText("Ny uppgift")
-         const addButton = screen.getByRole("button", {name: /Läggg till/i})
+         const addButton = screen.getByRole("button", {name: /Lägg till/i})
          const doneButton = screen.getByRole("button", {name: /Klara/i})
 
          //Act
