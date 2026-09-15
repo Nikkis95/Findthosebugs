@@ -3,7 +3,7 @@ import { userEvent } from "@testing-library/user-event"
 import { render, screen } from "@testing-library/react"
 
 describe ("Filter todos", () => {
-    it("should filter todos based on the selected filter", async () => {
+    it("ska visa endast aktiva uppgifter", async () => {
          //Arrange
          const user = userEvent.setup()
          render(<TodoApp />)
